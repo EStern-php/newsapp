@@ -83,10 +83,6 @@ class newsApiController
             break;
         }
 
-        //Add to database if set.
-
-        //show newsArticles
-      
     }
     
 
