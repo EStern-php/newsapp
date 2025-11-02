@@ -1,0 +1,19 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Docker
+*.log
+docker-data/
+.env
+.env.local
+
+# PHP / Composer
+/vendor/
+composer.lock
+
+# Cache
+tmp/
+.cache/
