@@ -11,7 +11,6 @@ class newsApiModel
     
     private $baseUrl = 'https://newsapi.org/v2/';
 
-    //Need user agent when calling api. Can remove if not on localhost anymore.
     private string $userAgent = 'MyNewsApp/1.0';
 
     public function __construct()
