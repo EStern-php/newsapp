@@ -54,7 +54,6 @@ class newsApiModel
         if ($error) {
             throw new Exception("Curl error: " . $error);
         }
-        var_dump($response);
         $data = json_decode($response, true) ?? [];
         $articles = $data['articles'] ?? [];
 
